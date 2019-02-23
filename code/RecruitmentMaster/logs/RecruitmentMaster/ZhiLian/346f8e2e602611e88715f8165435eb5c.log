@@ -1,0 +1,108 @@
+2018-05-25 22:16:29 [scrapy.utils.log] INFO: Scrapy 1.5.0 started (bot: RecruitmentMaster)
+2018-05-25 22:16:29 [scrapy.utils.log] INFO: Versions: lxml 3.7.3.0, libxml2 2.9.4, cssselect 1.0.3, parsel 1.4.0, w3lib 1.19.0, Twisted 17.9.0, Python 2.7.13 |Anaconda 4.4.0 (64-bit)| (default, May 11 2017, 13:17:26) [MSC v.1500 64 bit (AMD64)], pyOpenSSL 17.0.0 (OpenSSL 1.0.2l  25 May 2017), cryptography 1.8.1, Platform Windows-10-10.0.17134
+2018-05-25 22:16:29 [scrapy.crawler] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'RecruitmentMaster.spiders', 'CONCURRENT_REQUESTS': 10, 'SPIDER_MODULES': ['RecruitmentMaster.spiders'], 'BOT_NAME': 'RecruitmentMaster', 'DOWNLOAD_TIMEOUT': 10, 'COOKIES_ENABLED': False, 'USER_AGENT': 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/536.3 (KHTML, like Gecko) Chrome/19.0.1063.0 Safari/536.3', 'LOG_FILE': 'logs\\RecruitmentMaster\\ZhiLian\\346f8e2e602611e88715f8165435eb5c.log', 'DOWNLOAD_DELAY': 1}
+2018-05-25 22:16:29 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2018-05-25 22:16:29 [py.warnings] WARNING: e:\anaconda_2.7\lib\site-packages\scrapy\utils\deprecate.py:156: ScrapyDeprecationWarning: `scrapy.contrib.downloadermiddleware.useragent.UserAgentMiddleware` class is deprecated, use `scrapy.downloadermiddlewares.useragent.UserAgentMiddleware` instead
+  ScrapyDeprecationWarning)
+
+2018-05-25 22:16:30 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'RecruitmentMaster.middlewares.RotateUserAgentMiddleware',
+ 'RecruitmentMaster.middlewares.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-05-25 22:16:30 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-05-25 22:16:30 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2018-05-25 22:16:30 [scrapy.core.engine] INFO: Spider opened
+2018-05-25 22:16:30 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-05-25 22:16:30 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2018-05-25 22:16:30 [ZhiLian] INFO: User-Agent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/536.3 (KHTML, like Gecko) Chrome/19.0.1061.0 Safari/536.3
+2018-05-25 22:16:32 [RecruitmentMaster.middlewares] DEBUG: None 200 https://xiaoyuan.zhaopin.com/full/0/0_0_0_0_0_-1_0_1_0
+2018-05-25 22:16:32 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://xiaoyuan.zhaopin.com/full/0/0_0_0_0_0_-1_0_1_0> (referer: None)
+2018-05-25 22:16:35 [InsertRequest] INFO: Redis open failed!!!
+2018-05-25 22:16:35 [ZhiLianMasterSpider] INFO: ZhiLianMasterSpiderUrl: https://xiaoyuan.zhaopin.com/job/CC000106451J90000713000?traceId=s0c025865844bffcd868f9e04dc59201f3&scenario=1&jobSourceType=0&pageIndex=1&position=1
+2018-05-25 22:16:37 [InsertRequest] INFO: Redis open failed!!!
+2018-05-25 22:16:37 [ZhiLianMasterSpider] INFO: ZhiLianMasterSpiderUrl: https://xiaoyuan.zhaopin.com/job/CC000128945J90000827000?traceId=s0c025865844bffcd868f9e04dc59201f3&scenario=1&jobSourceType=0&pageIndex=1&position=2
+2018-05-25 22:16:39 [InsertRequest] INFO: Redis open failed!!!
+2018-05-25 22:16:39 [ZhiLianMasterSpider] INFO: ZhiLianMasterSpiderUrl: https://xiaoyuan.zhaopin.com/job/CC000106451J90000856000?traceId=s0c025865844bffcd868f9e04dc59201f3&scenario=1&jobSourceType=0&pageIndex=1&position=3
+2018-05-25 22:16:41 [InsertRequest] INFO: Redis open failed!!!
+2018-05-25 22:16:41 [ZhiLianMasterSpider] INFO: ZhiLianMasterSpiderUrl: https://xiaoyuan.zhaopin.com/job/CC000128518J90000066000?traceId=s0c025865844bffcd868f9e04dc59201f3&scenario=1&jobSourceType=0&pageIndex=1&position=4
+2018-05-25 22:16:43 [InsertRequest] INFO: Redis open failed!!!
+2018-05-25 22:16:43 [ZhiLianMasterSpider] INFO: ZhiLianMasterSpiderUrl: https://xiaoyuan.zhaopin.com/job/CC000128945J90000850000?traceId=s0c025865844bffcd868f9e04dc59201f3&scenario=1&jobSourceType=0&pageIndex=1&position=5
+2018-05-25 22:16:45 [InsertRequest] INFO: Redis open failed!!!
+2018-05-25 22:16:45 [ZhiLianMasterSpider] INFO: ZhiLianMasterSpiderUrl: https://xiaoyuan.zhaopin.com/job/CC000106451J90000224000?traceId=s0c025865844bffcd868f9e04dc59201f3&scenario=1&jobSourceType=0&pageIndex=1&position=6
+2018-05-25 22:16:47 [InsertRequest] INFO: Redis open failed!!!
+2018-05-25 22:16:47 [ZhiLianMasterSpider] INFO: ZhiLianMasterSpiderUrl: https://xiaoyuan.zhaopin.com/job/CC000128945J90001104000?traceId=s0c025865844bffcd868f9e04dc59201f3&scenario=1&jobSourceType=0&pageIndex=1&position=7
+2018-05-25 22:16:49 [InsertRequest] INFO: Redis open failed!!!
+2018-05-25 22:16:49 [ZhiLianMasterSpider] INFO: ZhiLianMasterSpiderUrl: https://xiaoyuan.zhaopin.com/job/CC000128518J90000118000?traceId=s0c025865844bffcd868f9e04dc59201f3&scenario=1&jobSourceType=0&pageIndex=1&position=8
+2018-05-25 22:16:51 [InsertRequest] INFO: Redis open failed!!!
+2018-05-25 22:16:51 [ZhiLianMasterSpider] INFO: ZhiLianMasterSpiderUrl: https://xiaoyuan.zhaopin.com/job/CC000106451J90000945000?traceId=s0c025865844bffcd868f9e04dc59201f3&scenario=1&jobSourceType=0&pageIndex=1&position=9
+2018-05-25 22:16:53 [InsertRequest] INFO: Redis open failed!!!
+2018-05-25 22:16:53 [ZhiLianMasterSpider] INFO: ZhiLianMasterSpiderUrl: https://xiaoyuan.zhaopin.com/job/CC000106451J90000529000?traceId=s0c025865844bffcd868f9e04dc59201f3&scenario=1&jobSourceType=0&pageIndex=1&position=10
+2018-05-25 22:16:55 [InsertRequest] INFO: Redis open failed!!!
+2018-05-25 22:16:55 [ZhiLianMasterSpider] INFO: ZhiLianMasterSpiderUrl: https://xiaoyuan.zhaopin.com/job/CC000106451J90000055000?traceId=s0c025865844bffcd868f9e04dc59201f3&scenario=1&jobSourceType=0&pageIndex=1&position=11
+2018-05-25 22:16:57 [InsertRequest] INFO: Redis open failed!!!
+2018-05-25 22:16:57 [ZhiLianMasterSpider] INFO: ZhiLianMasterSpiderUrl: https://xiaoyuan.zhaopin.com/job/CC000106451J90000931000?traceId=s0c025865844bffcd868f9e04dc59201f3&scenario=1&jobSourceType=0&pageIndex=1&position=12
+2018-05-25 22:16:59 [InsertRequest] INFO: Redis open failed!!!
+2018-05-25 22:16:59 [ZhiLianMasterSpider] INFO: ZhiLianMasterSpiderUrl: https://xiaoyuan.zhaopin.com/job/CC000106451J90000081000?traceId=s0c025865844bffcd868f9e04dc59201f3&scenario=1&jobSourceType=0&pageIndex=1&position=13
+2018-05-25 22:17:01 [InsertRequest] INFO: Redis open failed!!!
+2018-05-25 22:17:01 [ZhiLianMasterSpider] INFO: ZhiLianMasterSpiderUrl: https://xiaoyuan.zhaopin.com/job/CC000128945J90000514000?traceId=s0c025865844bffcd868f9e04dc59201f3&scenario=1&jobSourceType=0&pageIndex=1&position=14
+2018-05-25 22:17:03 [InsertRequest] INFO: Redis open failed!!!
+2018-05-25 22:17:03 [ZhiLianMasterSpider] INFO: ZhiLianMasterSpiderUrl: https://xiaoyuan.zhaopin.com/job/CC000106451J90000175000?traceId=s0c025865844bffcd868f9e04dc59201f3&scenario=1&jobSourceType=0&pageIndex=1&position=15
+2018-05-25 22:17:05 [InsertRequest] INFO: Redis open failed!!!
+2018-05-25 22:17:05 [ZhiLianMasterSpider] INFO: ZhiLianMasterSpiderUrl: https://xiaoyuan.zhaopin.com/job/CC000128945J90000032000?traceId=s0c025865844bffcd868f9e04dc59201f3&scenario=1&jobSourceType=0&pageIndex=1&position=16
+2018-05-25 22:17:07 [InsertRequest] INFO: Redis open failed!!!
+2018-05-25 22:17:07 [ZhiLianMasterSpider] INFO: ZhiLianMasterSpiderUrl: https://xiaoyuan.zhaopin.com/job/CC000128518J90000093000?traceId=s0c025865844bffcd868f9e04dc59201f3&scenario=1&jobSourceType=0&pageIndex=1&position=17
+2018-05-25 22:17:09 [InsertRequest] INFO: Redis open failed!!!
+2018-05-25 22:17:09 [ZhiLianMasterSpider] INFO: ZhiLianMasterSpiderUrl: https://xiaoyuan.zhaopin.com/job/CC000106451J90000149000?traceId=s0c025865844bffcd868f9e04dc59201f3&scenario=1&jobSourceType=0&pageIndex=1&position=18
+2018-05-25 22:17:11 [InsertRequest] INFO: Redis open failed!!!
+2018-05-25 22:17:11 [ZhiLianMasterSpider] INFO: ZhiLianMasterSpiderUrl: https://xiaoyuan.zhaopin.com/job/CC000128518J90000126000?traceId=s0c025865844bffcd868f9e04dc59201f3&scenario=1&jobSourceType=0&pageIndex=1&position=19
+2018-05-25 22:17:13 [InsertRequest] INFO: Redis open failed!!!
+2018-05-25 22:17:13 [ZhiLianMasterSpider] INFO: ZhiLianMasterSpiderUrl: https://xiaoyuan.zhaopin.com/job/CC000128945J90000043000?traceId=s0c025865844bffcd868f9e04dc59201f3&scenario=1&jobSourceType=0&pageIndex=1&position=20
+2018-05-25 22:17:15 [InsertRequest] INFO: Redis open failed!!!
+2018-05-25 22:17:15 [ZhiLianMasterSpider] INFO: ZhiLianMasterSpiderUrl: https://xiaoyuan.zhaopin.com/job/CC000106451J90000248000?traceId=s0c025865844bffcd868f9e04dc59201f3&scenario=1&jobSourceType=0&pageIndex=1&position=21
+2018-05-25 22:17:17 [InsertRequest] INFO: Redis open failed!!!
+2018-05-25 22:17:17 [ZhiLianMasterSpider] INFO: ZhiLianMasterSpiderUrl: https://xiaoyuan.zhaopin.com/job/CC000106451J90001294000?traceId=s0c025865844bffcd868f9e04dc59201f3&scenario=1&jobSourceType=0&pageIndex=1&position=22
+2018-05-25 22:17:19 [InsertRequest] INFO: Redis open failed!!!
+2018-05-25 22:17:19 [ZhiLianMasterSpider] INFO: ZhiLianMasterSpiderUrl: https://xiaoyuan.zhaopin.com/job/CC000106451J90000943000?traceId=s0c025865844bffcd868f9e04dc59201f3&scenario=1&jobSourceType=0&pageIndex=1&position=23
+2018-05-25 22:17:21 [InsertRequest] INFO: Redis open failed!!!
+2018-05-25 22:17:21 [ZhiLianMasterSpider] INFO: ZhiLianMasterSpiderUrl: https://xiaoyuan.zhaopin.com/job/CC000128945J90000136000?traceId=s0c025865844bffcd868f9e04dc59201f3&scenario=1&jobSourceType=0&pageIndex=1&position=24
+2018-05-25 22:17:23 [InsertRequest] INFO: Redis open failed!!!
+2018-05-25 22:17:23 [ZhiLianMasterSpider] INFO: ZhiLianMasterSpiderUrl: https://xiaoyuan.zhaopin.com/job/CC000117819J90002977000?traceId=s0c025865844bffcd868f9e04dc59201f3&scenario=1&jobSourceType=0&pageIndex=1&position=25
+2018-05-25 22:17:25 [InsertRequest] INFO: Redis open failed!!!
+2018-05-25 22:17:25 [ZhiLianMasterSpider] INFO: ZhiLianMasterSpiderUrl: https://xiaoyuan.zhaopin.com/job/CC000106451J90000250000?traceId=s0c025865844bffcd868f9e04dc59201f3&scenario=1&jobSourceType=0&pageIndex=1&position=26
+2018-05-25 22:17:27 [InsertRequest] INFO: Redis open failed!!!
+2018-05-25 22:17:27 [ZhiLianMasterSpider] INFO: ZhiLianMasterSpiderUrl: https://xiaoyuan.zhaopin.com/job/CC000106451J90000115000?traceId=s0c025865844bffcd868f9e04dc59201f3&scenario=1&jobSourceType=0&pageIndex=1&position=27
+2018-05-25 22:17:29 [InsertRequest] INFO: Redis open failed!!!
+2018-05-25 22:17:29 [ZhiLianMasterSpider] INFO: ZhiLianMasterSpiderUrl: https://xiaoyuan.zhaopin.com/job/CC000106451J90000127000?traceId=s0c025865844bffcd868f9e04dc59201f3&scenario=1&jobSourceType=0&pageIndex=1&position=28
+2018-05-25 22:17:31 [InsertRequest] INFO: Redis open failed!!!
+2018-05-25 22:17:31 [ZhiLianMasterSpider] INFO: ZhiLianMasterSpiderUrl: https://xiaoyuan.zhaopin.com/job/CC000106451J90001099000?traceId=s0c025865844bffcd868f9e04dc59201f3&scenario=1&jobSourceType=0&pageIndex=1&position=29
+2018-05-25 22:17:33 [InsertRequest] INFO: Redis open failed!!!
+2018-05-25 22:17:33 [ZhiLianMasterSpider] INFO: ZhiLianMasterSpiderUrl: https://xiaoyuan.zhaopin.com/job/CC000128945J90000511000?traceId=s0c025865844bffcd868f9e04dc59201f3&scenario=1&jobSourceType=0&pageIndex=1&position=30
+2018-05-25 22:17:33 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 1 pages/min), scraped 0 items (at 0 items/min)
+2018-05-25 22:17:33 [ZhiLian] INFO: User-Agent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/536.3 (KHTML, like Gecko) Chrome/19.0.1062.0 Safari/536.3
+2018-05-25 22:17:35 [RecruitmentMaster.middlewares] DEBUG: None 200 https://xiaoyuan.zhaopin.com/full/0/0_0_0_0_0_-1_0_2_0
+2018-05-25 22:17:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://xiaoyuan.zhaopin.com/full/0/0_0_0_0_0_-1_0_2_0> (referer: https://xiaoyuan.zhaopin.com/full/0/0_0_0_0_0_-1_0_1_0)
+2018-05-25 22:17:37 [InsertRequest] INFO: Redis open failed!!!
+2018-05-25 22:17:37 [ZhiLianMasterSpider] INFO: ZhiLianMasterSpiderUrl: https://xiaoyuan.zhaopin.com/job/CC000106451J90000719000?traceId=s0c025865844bffcd868f9e04dc59201f3&scenario=1&jobSourceType=0&pageIndex=2&position=1
+2018-05-25 22:17:39 [InsertRequest] INFO: Redis open failed!!!
+2018-05-25 22:17:39 [ZhiLianMasterSpider] INFO: ZhiLianMasterSpiderUrl: https://xiaoyuan.zhaopin.com/job/CC000121882J90000027000?traceId=s0c025865844bffcd868f9e04dc59201f3&scenario=1&jobSourceType=0&pageIndex=2&position=2
+2018-05-25 22:17:41 [InsertRequest] INFO: Redis open failed!!!
+2018-05-25 22:17:41 [ZhiLianMasterSpider] INFO: ZhiLianMasterSpiderUrl: https://xiaoyuan.zhaopin.com/job/CC000106451J90001219000?traceId=s0c025865844bffcd868f9e04dc59201f3&scenario=1&jobSourceType=0&pageIndex=2&position=3
+2018-05-25 22:17:43 [InsertRequest] INFO: Redis open failed!!!
+2018-05-25 22:17:43 [ZhiLianMasterSpider] INFO: ZhiLianMasterSpiderUrl: https://xiaoyuan.zhaopin.com/job/CC000106451J90000418000?traceId=s0c025865844bffcd868f9e04dc59201f3&scenario=1&jobSourceType=0&pageIndex=2&position=4
